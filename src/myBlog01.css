@@ -1,1 +1,84 @@
-.gray {color:rgb(58, 58, 58);}
+/* marginは基本topとleftだけ */
+
+.body {
+	line-height: 1;
+	background-color: beige;
+	font-family: "Meiryo", "sans-serif";
+}
+
+.header {
+	background-color: #ffffff;
+	margin: 20px 20px;
+	padding: 20px;
+	color:rgb(100, 69, 23);
+}
+
+.headerTitle {
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 200px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.headerImage {
+	text-align: center;
+}
+
+.headerImageBody {
+	text-align: center;
+	width: 700px;
+	margin: 20px auto;
+}
+
+.headerText {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+
+/* コメントアウトは コマンド + / */
+/* recipes */
+.recipes {
+	background-color: #ffffff;
+	margin: 20px;
+	padding: 20px;
+	color:rgb(100, 69, 23);
+}
+
+.recipesTitle {
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 200px;
+	letter-spacing: 3px;
+}
+
+.recipesArticleLine {
+	display: flex;
+	padding-inline-start: 0;
+}
+
+.recipesArticle {
+	background-color: #f8dcb7;
+	margin: 20px 0 0 0;
+	width: 33%;
+	padding: 20px;
+	color:rgb(100, 69, 23);
+	list-style: none;
+}
+
+.recipesArticle + .recipesArticle {
+	margin-left: 20px;
+}
+
+.recipesImage {
+	text-align: center;
+}
+
+.recipesImageBody {
+	text-align: center;
+	width: 100%;
+}
