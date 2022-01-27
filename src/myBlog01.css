@@ -5,10 +5,12 @@
 	margin: 0;
 	line-height: 1;
 	font-family: "Meiryo", "sans-serif";
+	padding: 0;
 }
 
 body {
 	background-color: #ffebd9;
+	letter-spacing: 3px;
 }
 
 .header {
@@ -21,7 +23,6 @@ body {
 	text-align: center;
 	width: 100%;
 	font-size: 18px;
-	letter-spacing: 3px;
 	color: #772d2d;
 	font-weight: bold;
 }
@@ -40,7 +41,6 @@ body {
 	width: 100%;
 	margin-top: 20px;
 	font-size: 13px;
-	letter-spacing: 2px;
 	color: #772d2d;
 }
 
@@ -55,8 +55,12 @@ body {
 	text-align: center;
 	width: 100%;
 	font-size: 15px;
-	letter-spacing: 3px;
 	color: #772d2d;
+}
+
+.recipesArticles {
+	display: flex;
+	justify-content: center;
 }
 
 .recipesArticle {
@@ -66,13 +70,6 @@ body {
 	padding: 20px;
 	color: #772d2d;
 	list-style: none;
-}
-
-.recipesArticles {
-	display: flex;
-	justify-content: center;
-	padding-inline-start: 0;
-	margin: 0;
 }
 
 .recipesArticle + .recipesArticle {
@@ -91,6 +88,5 @@ body {
 	margin-top: 20px;
 	width: 100%;
 	font-size: 13px;
-	letter-spacing: 2px;
 	color: #772d2d;
 }
